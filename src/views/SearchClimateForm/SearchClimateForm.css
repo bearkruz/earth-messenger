@@ -5,7 +5,7 @@
 }
 
 
-.SearchBar input select {
+.SearchBar input, select {
     left: 0px;
     padding: none;
     margin: 0;
