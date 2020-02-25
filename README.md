@@ -9,7 +9,7 @@ Earth Messenger is a React App that facilitates for Australians to:
 ## Usage
 
 
-Visit [www.earth-messenger.com](https://www.earth-messenger.com) and follow the prompts.
+Visit [http://www.earth-messenger.com/](http://www.earth-messenger.com/) and follow the prompts.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
