@@ -1,0 +1,29 @@
+.reps {
+    bottom: 10vh;
+    position: absolute;
+    width: 100%;
+    padding: none;
+    margin: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: left;
+}
+
+.reps_data {
+    padding: 30px;
+}
+
+.reps ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.reps h1{
+    font-size: large;
+    font-weight: bold;
+}

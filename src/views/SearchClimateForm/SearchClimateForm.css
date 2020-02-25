@@ -1,0 +1,104 @@
+.climate_inputs {
+    bottom: 10vh;
+    position: absolute;
+    width: 100%;
+}
+
+
+.SearchBar input {
+    left: 0px;
+    padding: none;
+    margin: 0;
+    border: 0;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+    border:none;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    width: 100%;
+}
+
+select  {
+    left: 0px;
+    padding: none;
+    margin: 0;
+    border: 0;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border:none;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    width: 100%;
+    padding-left: calc(48% - 1em);
+
+}
+
+
+
+.SearchButton {
+    background-color:#D0021B;
+    height: 5vh;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    border-width: 5px;
+    border-color: white;
+    outline: none;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border-style: solid;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    select  {
+        left: 0px;
+        padding: none;
+        margin: 0;
+        border: 0;
+        height: 5vh;
+        background-color: rgba(255, 255, 255, 0.5);
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
+        border:none;
+        background-image:none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        outline: none;
+        width: 100%;
+        padding-left: calc(47% - 1em);
+    
+    }
+
+}

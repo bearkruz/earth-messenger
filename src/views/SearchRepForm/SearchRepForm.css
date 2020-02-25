@@ -1,0 +1,181 @@
+.temp_data {
+    background-color: rgba(255, 0, 0, 0.8);
+    text-align: left;
+    color: white;
+
+}
+
+.facts {
+    bottom: 10vh;
+    position: absolute;
+    width: 100%;
+    padding: none;
+    margin: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: left;
+
+}
+
+.no_data {
+    bottom: 10vh;
+    position: absolute;
+    width: 100%;
+    padding: none;
+    margin: 0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+   
+}
+
+.no_data h1 {
+    padding: 30px;
+}
+
+.facts_data {
+    padding: 30px;
+}
+
+.facts ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.facts h1{
+    font-size: large;
+}
+
+
+.facts h2{
+    font-size: medium;
+}
+
+.facts h3{
+    font-size: small;
+}
+
+.temp_data h1 {
+    font-size: large;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.InvalidSearchButton {
+
+    background-color: black;
+    height: 5vh;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    border-width: 5px;
+    border-color: white;
+    outline: none;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+    border-style: solid;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .temp_data {
+        background-color: rgba(255, 0, 0, 0.8);
+        text-align: left;
+        color: white;
+    
+    }
+    
+    .facts {
+        bottom: 10vh;
+        position: absolute;
+        width: 100%;
+        padding: none;
+        margin: 0;
+        border: 0;
+        background-color: rgba(255, 255, 255, 0.95);
+        text-align: left;
+    
+    }
+    
+    .no_data {
+        bottom: 10vh;
+        position: absolute;
+        width: 100%;
+        padding: none;
+        margin: 0;
+        border: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        text-align: left;
+       
+    }
+    
+    .no_data h1 {
+        padding: 15px;
+    }
+    
+    .facts_data {
+        padding: 15px;
+    }
+    
+    .facts ol li {
+        list-style-type: decimal;
+        list-style-position: inside;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px;
+        font-size: 12px;
+    }
+    
+    .facts h1{
+        font-size: 14px;
+    }
+    
+    
+    .facts h2{
+        font-size: 10px;
+    }
+    
+    .facts h3{
+        font-size: 10px;
+    }
+    
+    .temp_data h1 {
+        font-size: 14px;
+        padding: 15px;
+        font-weight: bold;
+    }
+    
+    .InvalidSearchButton {
+    
+        background-color: black;
+        height: 5vh;
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        border-radius: 20px;
+        color: white;
+        border-width: 5px;
+        border-color: white;
+        outline: none;
+        font-weight: bold;
+        box-shadow: none;
+        outline: none;
+        border-style: solid;
+    }
+    
+  
+  }

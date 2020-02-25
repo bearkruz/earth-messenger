@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.interface {
+  width: 25%;
+  height: 68vh;
+  z-index: 10;
+  position: absolute;
+  right: 10%;
+  bottom: 15vh;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .interface {
+    width: 70%;
+    height: 68vh;
+    z-index: 10;
+    position: absolute;
+    right: 15%;
+    bottom: 15vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    display: none;
+  }
+}
+
