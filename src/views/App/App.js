@@ -73,9 +73,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <code>Runtime env var example: { process.env.REACT_APP_HELLO }</code>
     <div>
       <div className="App">
+      <code>Runtime env var example: { process.env.REACT_APP_HELLO }</code>
 
         <div className='interface'>
           <SearchClimateForm onSearch={this.search} temp={this.state.temp}/> 
