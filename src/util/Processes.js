@@ -55,7 +55,7 @@ const Processes = {
 
      async get_climate_data(geo_details) {
 
-        const urlToFetch = `http://api.worldweatheronline.com/premium/v1/weather.ashx?q=${geo_details.lat},${geo_details.lng}&format=json&tp=24&num_of_days=7&key=${process.env.REACT_APP_WORLD_WEATHER_KEY}`; 
+        const urlToFetch = `https://api.worldweatheronline.com/premium/v1/weather.ashx?q=${geo_details.lat},${geo_details.lng}&format=json&tp=24&num_of_days=7&key=${process.env.REACT_APP_WORLD_WEATHER_KEY}`; 
         
         try {
             const response = await fetch(urlToFetch);
