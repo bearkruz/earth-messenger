@@ -30,11 +30,11 @@
 }
 
 .no_data h1 {
-    padding: 30px;
+    padding: 25px;
 }
 
 .facts_data {
-    padding: 30px;
+    padding: 25px;
 }
 
 .facts ol li {
@@ -62,7 +62,7 @@
 
 .temp_data h1 {
     font-size: large;
-    padding: 30px;
+    padding: 25px;
     font-weight: bold;
 }
 

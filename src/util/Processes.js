@@ -174,7 +174,7 @@ loop()
   const outcome = await Processes.two(postcode);
   return new Promise((resolve, reject) => {
     request({
-      uri: `https://cors-anywhere.herokuapp.com/http://www.parsehub.com/api/v2/runs/${outcome}/data?api_key=${process.env.PARSEHUB_KEY}&format=json`,
+      uri: `https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/runs/${outcome}/data?api_key=${process.env.PARSEHUB_KEY}&format=json`,
       method: 'GET',
       form: {
         api_key: process.env.REACT_APP_PARSEHUB_KEY,
