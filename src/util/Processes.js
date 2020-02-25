@@ -2,7 +2,7 @@ import Geocode from 'react-geocode';
 
 
 // set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.
-Geocode.setApiKey(process.env.GOOGLE_KEY);
+Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY);
 Geocode.setLanguage("en");
 Geocode.enableDebug();
 
@@ -55,7 +55,7 @@ const Processes = {
 
      async get_climate_data(geo_details) {
 
-        const urlToFetch = `http://api.worldweatheronline.com/premium/v1/weather.ashx?q=${geo_details.lat},${geo_details.lng}&format=json&tp=24&num_of_days=7&key=${process.env.WORLD_WEATHER_KEY}`; 
+        const urlToFetch = `http://api.worldweatheronline.com/premium/v1/weather.ashx?q=${geo_details.lat},${geo_details.lng}&format=json&tp=24&num_of_days=7&key=${process.env.REACT_APP_WORLD_WEATHER_KEY}`; 
         
         try {
             const response = await fetch(urlToFetch);
@@ -111,7 +111,7 @@ const Processes = {
       uri: 'https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/projects/t_8ztx8TSj6f/run',
       method: 'POST',
       form: {
-        api_key: process.env.PARSEHUB_KEY,
+        api_key: process.env.REACT_APP_PARSEHUB_KEY,
         start_url: `https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results?q=${postcode}&sen=1&par=-1&gen=0&ps=12`
       }
     }, async function(err, resp, body) {
@@ -141,7 +141,7 @@ return new Promise((resolve, reject) => {
     uri: `https://cors-anywhere.herokuapp.com/https://www.parsehub.com/api/v2/runs/${outcome}`,
     method: 'GET',
     qs: {
-      api_key: process.env.PARSEHUB_KEY
+      api_key: process.env.REACT_APP_PARSEHUB_KEY
     }
   }, async function(err, resp, body) {
   
@@ -177,7 +177,7 @@ loop()
       uri: `https://cors-anywhere.herokuapp.com/http://www.parsehub.com/api/v2/runs/${outcome}/data?api_key=${process.env.PARSEHUB_KEY}&format=json`,
       method: 'GET',
       form: {
-        api_key: process.env.PARSEHUB_KEY,
+        api_key: process.env.REACT_APP_PARSEHUB_KEY,
         format: `json`
       }
     }, async function(err, resp, body) {

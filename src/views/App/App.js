@@ -69,13 +69,14 @@ class App extends React.Component {
   }
 
 
+
     //map
 
   render() {
+
     return (
     <div>
       <div className="App">
-      <code>Runtime env var example: { process.env.REACT_APP_HELLO }</code>
 
         <div className='interface'>
           <SearchClimateForm onSearch={this.search} temp={this.state.temp}/> 
@@ -84,7 +85,7 @@ class App extends React.Component {
         </div>
 
         <LoadScript
-            googleMapsApiKey = {process.env.GOOGLE_KEY}
+            googleMapsApiKey = {process.env.REACT_APP_GOOGLE_KEY}
         >
           <GoogleMap
             id="circle-example"
