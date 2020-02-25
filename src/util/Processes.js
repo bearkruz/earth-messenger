@@ -274,13 +274,13 @@ async get_email_body (name, city, temp, facts) {
 
     const body = `Hi Senators. My name is ${capitalize(name)}.
     ${new_line}${new_line}I live in ${capitalize(city)} and am really concerned about the rising temperatures we are currently experiencing. 
-    ${new_line}${new_line}Just this coming week, the forecasted minimum average temperature is ${temp.toFixed(2)} degrees higher than this months usual average. 
+    ${new_line}${new_line}Just this coming week, the forecasted minimum average temperature is ${temp.toFixed(2)} degrees higher than this month's usual average. 
     ${new_line}${new_line}If this temperature increase remains consistent, it will lead to: 
     ${new_line}#1: ${facts[0]}
     ${new_line}#2: ${facts[1]}
     ${new_line}#3: ${facts[2]}
     ${new_line}${new_line}${facts[3]}
-    ${new_line}${new_line}The future of our nation is at risk if we do not act. I urge you to please make combatting Climate Change a top priority.
+    ${new_line}${new_line}The future of our nation is at risk if we do not act. I urge you to please make combating Climate Change a top priority.
     ${new_line}${new_line}Thanks, 
     ${new_line}${capitalize(name)}.
     `
