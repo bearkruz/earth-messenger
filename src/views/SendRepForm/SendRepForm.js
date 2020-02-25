@@ -16,7 +16,7 @@ class SendRepForm extends React.Component {
             <div className="SearchResults">
                 <div className='reps'>
                 <div className= 'reps_data'>
-                    <h1>Your Gov Reps include:</h1>
+                    <h1>Your Gov Rep's Include:</h1>
                     <br></br><br></br>
                 <ol>
                     {
