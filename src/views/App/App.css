@@ -52,14 +52,14 @@
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .interface {
     width: 70%;
     height: 68vh;
     z-index: 10;
     position: absolute;
     right: 15%;
-    bottom: 15vh;
+    bottom: 5vh;
     margin: 0;
     border: 0;
     padding: 0;
