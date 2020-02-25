@@ -69,11 +69,11 @@ class App extends React.Component {
   }
 
 
-
     //map
 
   render() {
 
+    console.log(process.env.GOOGLE_KEY)
     return (
     <div>
       <div className="App">
