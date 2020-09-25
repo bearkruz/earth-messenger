@@ -71,7 +71,6 @@ class App extends React.Component {
 
 
   //map
-
   render() {
 
     return (
