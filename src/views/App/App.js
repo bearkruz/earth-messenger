@@ -19,7 +19,7 @@ class App extends React.Component {
       city: '',
       postcode: '',
       country: '',
-      zoom: 4.1,
+      zoom: 4,
       tempAnomaly: 0,
       temp: 0,
       repNames: [],
