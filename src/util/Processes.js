@@ -108,7 +108,7 @@ const Processes = {
 
   return new Promise((resolve, reject) => {
     request({
-      uri: 'https://cors.bridged.cc/<https://www.parsehub.com/api/v2/projects/t_8ztx8TSj6f/run>',
+      uri: 'https://cors.bridged.cc/https://www.parsehub.com/api/v2/projects/t_8ztx8TSj6f/run',
       method: 'POST',
       form: {
         api_key: process.env.REACT_APP_PARSEHUB_KEY,
