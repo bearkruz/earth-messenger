@@ -9,6 +9,7 @@ import Processes from '../../util/Processes'
 import { GoogleMap, LoadScript } from '@react-google-maps/api'
 
 
+//Class
 class App extends React.Component {
 
   constructor(props) {
