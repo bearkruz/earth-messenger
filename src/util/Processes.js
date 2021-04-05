@@ -139,7 +139,7 @@ return new Promise((resolve, reject) => {
  function loop(token) {
   request({
     
-    uri: 'https://cors.bridged.cc/https://www.parsehub.com/api/v2/runs/${outcome}',
+    uri: `https://cors.bridged.cc/https://www.parsehub.com/api/v2/runs/${outcome}`,
     method: 'GET',
     qs: {
       api_key: process.env.REACT_APP_PARSEHUB_KEY
