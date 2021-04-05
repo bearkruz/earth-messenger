@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-geocode": "^0.2.3",
